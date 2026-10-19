@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Vite/build output
+dist/
+build/
+.vite/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

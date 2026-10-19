@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
